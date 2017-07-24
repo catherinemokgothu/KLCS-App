@@ -1,0 +1,1 @@
+javac -classpath "C:\Users\Katelicius\Desktop\Backup 2\UPDATED PROJECT\KLCS PROJECT\web\WEB-INF\lib\personAPI.jar .;C:\Users\Katelicius\Desktop\Backup 2\UPDATED PROJECT\KLCS PROJECT\web\WEB-INF\lib\shopingApi.jar .;C:\Program Files (x86)\lib\servlet-api.jar" -d classes src\LoginServlet.java

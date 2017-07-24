@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>View Product page</title>
+  <meta name="description" content="catherine website" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+  </script> 
+</head>
+
+<body>
+  <div id="main">
+	<div id="menubar">
+	  <div id="welcome">
+	    <h2><a href="#">Welcome To KLCS</a></h2>
+	  </div><!--close welcome-->
+      <div id="menu_items">
+	 
+	<nav>
+	    <ul id="menu">
+			<li class="current"><a href="index.html">Home</a></li>
+			<li><a href="register.html">Register</a></li>
+			<li><a href="login.html">Rent Items</a></li>
+			<li><a href="">Our Product</a></li>
+			<li><a href="enquiry.html">Enquiry</a></li>
+        </ul>
+		</nav>
+      </div><!--close menu-->
+    </div><!--close menubar-->	
+	
+	    
+		<article>
+			<h3 align="center">Our specials</h3>
+			<form name="form3"action="item.do" method="post">
+				<table class="fixed" align="center">
+		
+                        <col width="300px" />
+                        <col width="250px" />
+                        <col width="130px" />
+                        <col width="130px" />
+                        <col width="130px" />
+					<tr>
+						<td><center><strong>PICTURE</strong></center></td>
+						<td><center><strong>DESCRIPTION</strong></center></td>
+						<td><center><strong>PRICE</strong></center></td>
+					</tr>
+					
+					<tr>
+						<td><center><img src="images/plate_compact.jpg" height="150" width="150"></center></td>
+						<td><center>Plate Compact</center></td>
+						<td><center>R350.00</center></td>
+					</tr>
+					
+					<tr>
+						<td><center><img src="images/red_bricks.jpg" height="150" width="150"></center></td>
+						<td><center>Red Brick</center></td>
+						<td><center>Per 1000 bricks R750.00</center></td>
+					</tr>
+					
+					<tr>
+						<td><center><img src="images/red_sand.jpg" height="150" width="150"></center></td>
+						<td><center>Red Sand</center></td>
+						<td><center>R500.00</center></td>
+					</tr>
+					
+				</table>
+				<p>To rent or buy Items click here to Register <a href="register.html">Register</a></p>
+				<p>or Login here if already Registered<a href="login.html">Login</a></p>
+			</form>
+		</article>
+	
+	
+  
+	
+  <div id="footer">
+		website designed by Catherine Mokgothu Student Number 212266825
+  </div><!--close footer--> 
+  
+ 
+  
+</body>
+</html>

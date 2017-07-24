@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+	<persistence-unit name="dataLink" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+		<class>
+			za.ac.tut.person.Person
+		</class>
+		<class>
+			za.ac.tut.person.Enquiry
+		</class>
+		<class>
+			za.ac.tut.product.Items
+		</class>
+		<class>
+			za.ac.tut.person.Address
+		</class>
+		<class>
+			za.ac.tut.person.Client
+		</class>
+		<class>
+			za.ac.tut.person.Employee
+		</class>
+		<class>
+			za.ac.tut.login.Login
+		</class>
+	
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/klcsdbase"/>
+			<property name="javax.persistence.jdbc.user" value="cathy"/>
+			<property name="javax.persistence.jdbc.password" value="123456"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+			<property name="eclipselink.logging.level" value="FINEST"/>
+			<property name="eclipselink.ddl-generation" value="create-tables"/>
+			
+		</properties>
+	</persistence-unit>
+</persistence>
